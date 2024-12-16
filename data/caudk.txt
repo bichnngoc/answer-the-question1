@@ -1,0 +1,177 @@
+Học Tập - Giáo dục
+
+Bài viết liên quan
+
+Trong bài học C++ tiếp theo dưới đây Taimienphi.vn sẽ giới thiệu tiếp cho bạn về lệnh điều kiện trong C++. Ngoài ra bạn đọc có thể tham khảo thêm một số bài viết khác đã có trên Taimienphi.vn để tìm hiểu thêm về vòng lặp trong C++ là gì nhé.
+
+Lệnh điều kiện trong C++Mục lục bài viết1. Lệnh điều kiện trong C++2. Lệnh If trong C++1.1. Lệnh điều kiện If trong C++1.2. Lệnh điều kiện If else trong C++1.3. Lệnh If ... else ... If trong C++1.4. Lệnh Else If trong C++3. Lệnh Switch trong C++4. Toán tử điều kiện trong C++Lệnh điều kiện trong C++Lệnh điều kiện trong C++ được sử dụng để quyết định thứ tự việc thực hiện các câu lệnh dựa trên các điều kiện cụ thể hoặc lặp lại một nhóm các câu lệnh cho đến khi thỏa mãn các điều kiện cụ thể. C++ hỗ trợ các lệnh điều kiện dưới đây:- Lệnh If.- Lệnh Switch.- Toán tử điều kiện.- Lệnh Goto.Lệnh If trong C++Lệnh If trong C++ bao gồm nhiều lệnh khác nhau, tùy thuộc vào độ phức tạp của các điều kiện được kiểm tra. Dưới đây là một số lệnh If trong C++:- Lệnh If đơn giản.- Lệnh If ... else.- Lệnh If....else lồng nhau.- Lệnh else if.Lệnh điều kiện If trong C++If là một từ khóa trong C++. Lệnh điều kiện If được sử dụng để thực thi hoặc bỏ qua một lệnh bằng cách kiểm tra điều kiện.Điều kiện được đưa ra dưới dạng biểu thức quan hệ. Nếu điều kiện là True, lệnh ở sau lệnh If sẽ được thực thi. Nếu điều kiện là False, lệnh sau đó sẽ không được thực thu.Cú pháp lệnh điều kiện If trong C++ có dạng:If (điều kiện)Lệnh;Cú pháp trên được sử dụng cho câu lệnh đơn. Ngoài ra nếu muốn bạn cũng có thể sử dụng cho tập hợp các lệnh, miễn là các lệnh này được đặt trong dấu ngoặc nhọn { }. Tập hợp các lệnh cũng được gọi là lệnh ghép.Cho ví dụ về lệnh điều kiện If trong C++:#includesử dụng namespace std;if-điều kiệnVoid main (){Int điểm;Cout<"nhập điểm="" của="">Cin>>điểm;If(điểm>=40)Cout<"điểm đủ="">}Lưu ý: Cin là hàm đầu vào, được sử dụng để lấy đầu vào từ người dùng.Lệnh điều kiện If else trong C++Lệnh If ... Else cũng là một lệnh điều kiện If, được sử dụng để thực thi khối câu lệnh khi điều kiện được đánh giá là True, ngược lại nếu điều kiện được đánh giá là False khối câu lệnh sẽ không được thực thi. Trong trường hợp bất kỳ, một khối sẽ được thực thi và khối kia bị bỏ qua.Trong lệnh If ... Else:- Cả 2 khối lệnh không bao giờ được thực thi.- Cả 2 khối lệnh không bao giờ được bỏ qua.Cú pháp lệnh If ... else trong C++ có dạng:if (điều kiện)lệnh;elselệnh;Lưu ý:Nếu có 2 hoặc nhiều lệnh trở lên phải được đặt trong dấu ngoặc nhọn { }.Dưới đây là ví dụ về lệnh điều kiện If ... Else trong C++:# includeVoid main ()if-else-lệnh{Int n;Cout<"nhập một="">Cin>>n;If(n%2==0)Cout<"n là="">ElseCout<"n là="">}Lệnh If ... else ... If trong C++Lệnh If else If được sử dụng để chọn một khối các câu lệnh từ nhiều khối câu lệnh khác nhau. Lệnh này được sử dụng khi có nhiều tùy chọn và chỉ một khối lệnh được thực thi dựa trên điều kiện cơ sở.- Cú pháp lệnh If ... else ... If trong C++ có dạng:if (điều kiện)if-else-if- lệnh{Khối 1;}else if (điều kiện)}{Khối 2;}else if (điều kiện){Khối 3;}::else{Khối n;}- Cách thức hoạt động của lệnh If else if:Các điều kiện kiểm tra trong lệnh If else với nhiều lựa chọn thay thế được thực thi theo tuần tự cho đến khi đạt được điều kiện True. Nếu điều kiện là True, khối các lệnh theo sau điều kiện được thực thi, các khối còn lại được bỏ qua. Ngược lại nếu điều kiện là False, khối các lệnh theo sau điều kiện bị bỏ qua. Lệnh sau else cuối cùng sẽ được thực thi nếu tất cả điều kiện là False.Lệnh Else If trong C++Cấu trúc chung lệnh Else If trong C++ có dạng:if(biểu thức 1){lệnh-khối1;}else if(biểu thức 2){lệnh-khối2;}else if(biểu thức 3){lệnh-khối3;}elselệnh mặc định;Biểu thức được kiểm tra từ trên xuống. Ngay khi điều kiện True được phát hiện, câu lệnh liên quan đến nó sẽ được thực thi.Dưới đây là ví dụ về lệnh Else If trong C++:void main( ){int a;cout < "nhập="" một="">cin >> a;if( a%5==0 && a%8==0){cout < "chia="" hết="" cho="" cả="" 5="" và="">}else if( a%8==0 ){cout < "chia="" hết="" cho="">}else if(a%5==0){cout < "chia="" hết="" cho="">}else{cout < "chia="" hết="" cho="">}}Nếu nhập giá trị 40 cho biến a, đầu ra có dạng:chia hết cho cả 5 và 8Lệnh Switch trong C++Lệnh Switch cũng là lệnh điều kiện trong C++, được sử dụng để thay thế lệnh If Else lồng nhau. Lệnh này được sử dụng khi có nhiều lệnh có sẵn và chỉ thực thi một lệnh cụ thể.- Cú pháp lệnh Switch trong C++ có dạng:Switch (biểu thức){case val1:switch-lệnhlệnh1;break;case val2:lệnh2;break;::case valn:lệnh;break;default:lệnh;}- Cách thức lệnh Switch hoạt động:Lệnh Switch so sánh kết quả một biểu thức với nhiều trường hợp (case). Biểu thức có thể là giá trị bất kỳ trả về kết quả giá trị nguyên hoặc ký tự. Biểu thức được đánh giá ở đầu lệnh switch và kết quả được so sánh với các trường hợp khác nhau. Mỗi trường hợp là một lựa chọn. Nếu kết quả khớp với trường hợp bất kỳ, khối câu lệnh tương ứng sẽ được thực thi. Trong một lệnh Switch không giới hạn số lượng trường hợp.Default Label xuất hiện ở cuối tất cả các Case Label. Nó chỉ được thực thi sau khi kết quả của biểu thức không được khớp với Case Label bất kỳ. Vị trí của Default Label là không cố định, có thể đặt trước lệnh case đầu tiên hoặc cuối cùng.Lệnh break trong mỗi case label được sử dụng để thoát khỏi phần thân lệnh switch, và được sử dụng ở cuối mỗi case label. Khi kết quả của biểu thức khớp với case label, lệnh tương ứng sẽ được thực thi.Lệnh break xuất hiện sau các lệnh này và control thoát khỏi phần thân lệnh switch. Nếu lệnh break không được sử dụng, tất cả các khối case xuất hiện sau case cũng sẽ được thực thi.- Ví dụ về lệnh Switch trong C++:# includeVoid main (){Int n;Cout<"nhập một="" ngày="" bất="" kỳ="" trong="">Cin>>n;Switch (n){case 1:cout<"thứ>break;case 2:cout<"thứ>break;case 3:cout<"chủ>break;default:thực thi-switch-lệnhcout<"ngoài phạm="">}}Toán tử điều kiện trong C++Toán tử điều kiện trong C++ được sử dụng để thay thế cho cấu trúc if else đơn giản. Nó còn được gọi là toán tử 3 ngôi vì sử dụng 3 toán hạng.- Cú pháp toán tử điều kiện trong C++ có dạng:(điều kiện) ? lệnh case true: lệnh case false;Trong đó:- Điều kiện: được chỉ định là biểu thức quan hệ hoặc logic. Điều kiện được đánh giá là True hoặc False.- True Case: được thực thi nếu biểu thức được đánh giá là True.- False case: được thực thi nếu biểu thức được đánh giá là False.Cho ví dụ về toán tử điều kiện trong C++, giả sử chúng ta có biến A. Lệnh có dạng:X = (A>50) ? 1 : 0;1 được gán cho X nếu điều kiện A>50 là True, hoặc sẽ được gán 0 cho X nếu điều kiện là False. Câu lệnh trên có thể được viết bằng cách sử dụng lệnh if else như sau:If (A>50)X=1;ElseX=0;Trên đây bạn đọc vừa cùng Taimienphi.vn tìm hiểu về lệnh điều kiện trong C++ là gì. Trong các bài viết tiếp theo Taimienphi.vn sẽ giới thiệu tiếp cho bạn về các hàm trong C++. https://thuthuat.taimienphi.vn/lenh-dieu-kien-trong-c-43971n.aspx Nếu có bất kỳ thắc mắc hoặc câu hỏi nào cần giải đáp, bạn đọc có thể để lại ý kiến của mình trong phần bình luận bên dưới bài viết, Taimienphi.vn sẽ giải đáp các thắc mắc của bạn sớm nhất có thể.
+
+Mục lục bài viết
+
+1. Lệnh điều kiện trong C++2. Lệnh If trong C++1.1. Lệnh điều kiện If trong C++1.2. Lệnh điều kiện If else trong C++1.3. Lệnh If ... else ... If trong C++1.4. Lệnh Else If trong C++3. Lệnh Switch trong C++4. Toán tử điều kiện trong C++
+
+Lệnh điều kiện trong C++
+
+Lệnh điều kiện trong C++ được sử dụng để quyết định thứ tự việc thực hiện các câu lệnh dựa trên các điều kiện cụ thể hoặc lặp lại một nhóm các câu lệnh cho đến khi thỏa mãn các điều kiện cụ thể. C++ hỗ trợ các lệnh điều kiện dưới đây:
+
+- Lệnh If.- Lệnh Switch.- Toán tử điều kiện.- Lệnh Goto.
+
+Lệnh If trong C++
+
+Lệnh If trong C++ bao gồm nhiều lệnh khác nhau, tùy thuộc vào độ phức tạp của các điều kiện được kiểm tra. Dưới đây là một số lệnh If trong C++:
+
+- Lệnh If đơn giản.- Lệnh If ... else.- Lệnh If....else lồng nhau.- Lệnh else if.
+
+Lệnh điều kiện If trong C++
+
+If là một từ khóa trong C++. Lệnh điều kiện If được sử dụng để thực thi hoặc bỏ qua một lệnh bằng cách kiểm tra điều kiện.
+
+Điều kiện được đưa ra dưới dạng biểu thức quan hệ. Nếu điều kiện là True, lệnh ở sau lệnh If sẽ được thực thi. Nếu điều kiện là False, lệnh sau đó sẽ không được thực thu.
+
+Cú pháp lệnh điều kiện If trong C++ có dạng:
+
+If (điều kiện)
+
+Lệnh;
+
+Cú pháp trên được sử dụng cho câu lệnh đơn. Ngoài ra nếu muốn bạn cũng có thể sử dụng cho tập hợp các lệnh, miễn là các lệnh này được đặt trong dấu ngoặc nhọn { }. Tập hợp các lệnh cũng được gọi là lệnh ghép.
+
+Cho ví dụ về lệnh điều kiện If trong C++:
+
+#includesử dụng namespace std;if-điều kiệnVoid main (){Int điểm;Cout<"nhập điểm="" của="">Cin>>điểm;If(điểm>=40)Cout<"điểm đủ="">}
+
+Lưu ý: Cin là hàm đầu vào, được sử dụng để lấy đầu vào từ người dùng.
+
+Lệnh điều kiện If else trong C++
+
+Lệnh If ... Else cũng là một lệnh điều kiện If, được sử dụng để thực thi khối câu lệnh khi điều kiện được đánh giá là True, ngược lại nếu điều kiện được đánh giá là False khối câu lệnh sẽ không được thực thi. Trong trường hợp bất kỳ, một khối sẽ được thực thi và khối kia bị bỏ qua.
+
+Trong lệnh If ... Else:
+
+- Cả 2 khối lệnh không bao giờ được thực thi.- Cả 2 khối lệnh không bao giờ được bỏ qua.
+
+Cú pháp lệnh If ... else trong C++ có dạng:
+
+if (điều kiện)lệnh;elselệnh;
+
+Lưu ý:
+
+Nếu có 2 hoặc nhiều lệnh trở lên phải được đặt trong dấu ngoặc nhọn { }.
+
+Dưới đây là ví dụ về lệnh điều kiện If ... Else trong C++:
+
+# includeVoid main ()if-else-lệnh{Int n;Cout<"nhập một="">Cin>>n;If(n%2==0)Cout<"n là="">ElseCout<"n là="">}
+
+Lệnh If ... else ... If trong C++
+
+Lệnh If else If được sử dụng để chọn một khối các câu lệnh từ nhiều khối câu lệnh khác nhau. Lệnh này được sử dụng khi có nhiều tùy chọn và chỉ một khối lệnh được thực thi dựa trên điều kiện cơ sở.
+
+- Cú pháp lệnh If ... else ... If trong C++ có dạng:
+
+if (điều kiện)if-else-if- lệnh{Khối 1;}else if (điều kiện)}{Khối 2;}else if (điều kiện){Khối 3;}::else{Khối n;}
+
+- Cách thức hoạt động của lệnh If else if:
+
+Các điều kiện kiểm tra trong lệnh If else với nhiều lựa chọn thay thế được thực thi theo tuần tự cho đến khi đạt được điều kiện True. Nếu điều kiện là True, khối các lệnh theo sau điều kiện được thực thi, các khối còn lại được bỏ qua. Ngược lại nếu điều kiện là False, khối các lệnh theo sau điều kiện bị bỏ qua. Lệnh sau else cuối cùng sẽ được thực thi nếu tất cả điều kiện là False.
+
+Lệnh Else If trong C++
+
+Cấu trúc chung lệnh Else If trong C++ có dạng:
+
+if(biểu thức 1){lệnh-khối1;}else if(biểu thức 2){lệnh-khối2;}else if(biểu thức 3){lệnh-khối3;}elselệnh mặc định;
+
+Biểu thức được kiểm tra từ trên xuống. Ngay khi điều kiện True được phát hiện, câu lệnh liên quan đến nó sẽ được thực thi.
+
+Dưới đây là ví dụ về lệnh Else If trong C++:
+
+void main( ){int a;cout < "nhập="" một="">cin >> a;if( a%5==0 && a%8==0){cout < "chia="" hết="" cho="" cả="" 5="" và="">}else if( a%8==0 ){cout < "chia="" hết="" cho="">}else if(a%5==0){cout < "chia="" hết="" cho="">}else{cout < "chia="" hết="" cho="">}}
+
+Nếu nhập giá trị 40 cho biến a, đầu ra có dạng:
+
+chia hết cho cả 5 và 8
+
+Lệnh Switch trong C++
+
+Lệnh Switch cũng là lệnh điều kiện trong C++, được sử dụng để thay thế lệnh If Else lồng nhau. Lệnh này được sử dụng khi có nhiều lệnh có sẵn và chỉ thực thi một lệnh cụ thể.
+
+- Cú pháp lệnh Switch trong C++ có dạng:
+
+Switch (biểu thức){case val1:switch-lệnhlệnh1;break;case val2:lệnh2;break;::case valn:lệnh;break;default:lệnh;}
+
+- Cách thức lệnh Switch hoạt động:
+
+Lệnh Switch so sánh kết quả một biểu thức với nhiều trường hợp (case). Biểu thức có thể là giá trị bất kỳ trả về kết quả giá trị nguyên hoặc ký tự. Biểu thức được đánh giá ở đầu lệnh switch và kết quả được so sánh với các trường hợp khác nhau. Mỗi trường hợp là một lựa chọn. Nếu kết quả khớp với trường hợp bất kỳ, khối câu lệnh tương ứng sẽ được thực thi. Trong một lệnh Switch không giới hạn số lượng trường hợp.
+
+Default Label xuất hiện ở cuối tất cả các Case Label. Nó chỉ được thực thi sau khi kết quả của biểu thức không được khớp với Case Label bất kỳ. Vị trí của Default Label là không cố định, có thể đặt trước lệnh case đầu tiên hoặc cuối cùng.
+
+Lệnh break trong mỗi case label được sử dụng để thoát khỏi phần thân lệnh switch, và được sử dụng ở cuối mỗi case label. Khi kết quả của biểu thức khớp với case label, lệnh tương ứng sẽ được thực thi.
+
+Lệnh break xuất hiện sau các lệnh này và control thoát khỏi phần thân lệnh switch. Nếu lệnh break không được sử dụng, tất cả các khối case xuất hiện sau case cũng sẽ được thực thi.
+
+- Ví dụ về lệnh Switch trong C++:
+
+# includeVoid main (){Int n;Cout<"nhập một="" ngày="" bất="" kỳ="" trong="">Cin>>n;Switch (n){case 1:cout<"thứ>break;case 2:cout<"thứ>break;case 3:cout<"chủ>break;default:thực thi-switch-lệnhcout<"ngoài phạm="">}}
+
+Toán tử điều kiện trong C++
+
+Toán tử điều kiện trong C++ được sử dụng để thay thế cho cấu trúc if else đơn giản. Nó còn được gọi là toán tử 3 ngôi vì sử dụng 3 toán hạng.
+
+- Cú pháp toán tử điều kiện trong C++ có dạng:
+
+(điều kiện) ? lệnh case true: lệnh case false;
+
+Trong đó:
+
+- Điều kiện: được chỉ định là biểu thức quan hệ hoặc logic. Điều kiện được đánh giá là True hoặc False.
+
+- True Case: được thực thi nếu biểu thức được đánh giá là True.
+
+- False case: được thực thi nếu biểu thức được đánh giá là False.
+
+Cho ví dụ về toán tử điều kiện trong C++, giả sử chúng ta có biến A. Lệnh có dạng:
+
+X = (A>50) ? 1 : 0;
+
+1 được gán cho X nếu điều kiện A>50 là True, hoặc sẽ được gán 0 cho X nếu điều kiện là False. Câu lệnh trên có thể được viết bằng cách sử dụng lệnh if else như sau:
+
+If (A>50)X=1;ElseX=0;
+
+Trên đây bạn đọc vừa cùng Taimienphi.vn tìm hiểu về lệnh điều kiện trong C++ là gì. Trong các bài viết tiếp theo Taimienphi.vn sẽ giới thiệu tiếp cho bạn về các hàm trong C++.
+
+https://thuthuat.taimienphi.vn/lenh-dieu-kien-trong-c-43971n.aspx Nếu có bất kỳ thắc mắc hoặc câu hỏi nào cần giải đáp, bạn đọc có thể để lại ý kiến của mình trong phần bình luận bên dưới bài viết, Taimienphi.vn sẽ giải đáp các thắc mắc của bạn sớm nhất có thể.
+
+Tác giả: Chipu 
+                (4.0★- 3 đánh giá) 
+                  
+             ĐG của bạn?
+
+Bài viết liên quan
+
+Dev C++ Trình biên dịch C, C++ đa tính năng
+
+Đáp án tập huấn Giáo dục giới tính dành cho giáo viên
+
+Giáo dục giới tính là một nội dung quan trọng trong chương trình học tập và bồi dưỡng kiến thức cho giáo viên. Để hỗ trợ thầy cô hoàn thành tốt bài tập huấn, Tải Miễn Phí sẽ cung cấp danh sách câu hỏi, đáp án tập huấn Giáo dục giới tính cùng các thông tin cơ bản về khóa học này.
+
+Đáp án Mô đun 4 môn Toán Tiểu học
+
+Để giúp thầy cô hoàn thành tốt bài kiểm tra cuối khóa tập huấn, bài viết này Taimienphi sẽ cung cấp câu hỏi và Đáp án Mô đun 4 môn Toán Tiểu học chuẩn nhất.
+
+Viết bài văn tả một người thân của em, Tập làm văn lớp 5
+
+Anh, chị, bố, mẹ là những người thân yêu luôn ở bên, chia sẻ niềm vui nỗi buồn cùng chúng ta. Để giúp các em viết được bài văn tả người thân thật hay, Taimienphi đã chuẩn bị một số bài văn mẫu tham khảo, em hãy khám phá
+
+Đổi mật khẩu Zalo trên điện thoại Android, iPhone, Windows Phone
+
+Chỉ với vài thao tác đơn giản, bạn có thể đổi mật khẩu Zalo mới, bảo vệ thông tin và dữ liệu cá nhân của mình.
+
+Tiêu điểm
+
+Tìm hiểu chip Snapdragon 8cx, tốc độ chạy Photoshop, ExcelTính năng đặc biệt của chế độ Battle Mode trong vs Zombies 2
+
+Copyright TAIMIENPHI.VN © 2018 - All rights reserved
+
+ĐIỀU KHOẢN & ĐIỀU KIỆN
+
+Trợ giúp
+

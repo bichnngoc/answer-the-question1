@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body {
+    background-color: #f0f5ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.chat-container {
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.chat-header {
+    background-color: #724ae8;
+    padding: 16px 0;
+    text-align: center;
+    position: relative;
+    border-radius: 8px 8px 0 0;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.chat-messages {
+    flex-grow: 1;
+    overflow-y: auto;
+    margin-top: 10px;
+    padding: 30px 20px 70px;
+}
+
+.message {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.bot-message span{
+    height: 32px;
+    width: 32px;
+    color: #fff;
+    align-self: flex-end;
+    background: #724ae8;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 5px;
+    margin: 0 10px 7px 0;
+}
+.bot-message {
+    background-color: #f2f2f2;
+    color: #000;
+    padding: 12px 16px;
+    max-width: 70%;
+    font-size: 1rem;
+    border-radius: 10px 10px 10px 0;
+}
+
+.user-message {
+    color: #fff;
+    max-width: 75%;
+    font-size: 0.95rem;
+    padding: 12px 16px;
+    border-radius: 10px 10px 0 10px;
+    background-color: #724ae8;
+    margin: 20px 0;
+    justify-content: flex-end;
+    align-self: flex-end; /* Căn sang bên phải */
+    margin-left: auto; /* Đẩy tin nhắn về phía phải */
+}
+
+.message-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid;
+    padding: 10px;
+}
+
+.message-input input {
+    height: 55px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 0.95rem;
+    resize: none;
+    padding: 16px 15px 16px 0;
+}
+
+.message-input button {
+    align-self: flex-end;
+    height: 55px;
+    line-height: 55px;
+    color: #724ae8;
+    font-size: 1.35rem;
+    cursor: pointer;
+    background: none;
+    border: none;
+}

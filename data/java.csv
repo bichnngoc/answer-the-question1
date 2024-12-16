@@ -1,0 +1,59 @@
+Paragraphs
+"Ngày cập nhật:
+          
+                        05/05/2024"
+"Ngày xuất bản:
+          
+            05/05/2024"
+Nội dung chínhPhần mềm code Java – Java IDE là gì?Đặc điểm của một Java IDE tốt6 phần mềm code Java IDE tốt nhấtCách chọn Java IDE phù hợp13 plugin cho hỗ trợ cho phần mềm code JavaCác câu hỏi thường gặp về Java IDETổng kết Java IDE
+Nội dung chính
+"Sự phát triển của các phần mềm code nói chung và phần mềm code Java nói riêng là một cuộc cách mạng của ngành công nghệ thông tin. Các phần mềm code có thể hỗ trợ một hoặc nhiều ngôn ngữ, bài viết này sẽ giải đáp tất tần tật về cách chọn Java IDE tốt nhất."
+Đọc bài viết này để hiểu rõ:
+"Phần mềm code – IDE (integrated development environment), là một công cụ giúp cho lập trình viên làm việc hiệu quả hơn bằng các tính năng chỉnh sửa code nhanh, quét lỗi, compiler giúp dịch code thành các lệnh mà máy tính có thể hiểu được. Ngoài ra, thông qua IDE, các lập trình viên có thể tương tác với những tính năng cao cấp như Cloud, hay quản lý phiên bản của mã nguồn, tương tác với hệ điều hành."
+"Vào những ngày đầu của thời đại công nghệ, các mã nguồn được viết bằng công cụ gõ chữ rất thông thường, chỉ có các tính năng như viết, xóa, xuống dòng, lập trình viên phải nhớ mọi cú pháp, và luôn phải chạy code bằng cửa sổ command, sửa lỗi là một cơn ác mộng."
+Một số phần mềm code – IDE cho Java phổ biến:
+Cùng tìm hiểu chi tiết về 6 phần mềm code Java này ở phần dưới.
+Đọc thêm: 10 Java Framework cho Java Developer chất
+"Được phát triển bởi JetBrains, IntelliJ là phần mềm code Java được dùng nhiều nhất 2022, với hơn 33% vốn hoá thị trường (Theo Techrepublic)."
+"IntelliJ được viết bằng chính Java và một số các ngôn ngữ chạy trên JVM khác như Java, Kotlin, Groovy. Được thiết kế với giao diện dễ dàng tương tác, nhưng hỗ trợ rất nhiều tính năng được lập trình viên ưa chuộng. IntelliJ trở thành lựa chọn hàng đầu cho các dự án lớn về Java."
+Các phiên bản:
+Ưu điểm:
+Nhược điểm:
+"Eclipse là phần mềm code nổi tiếng thứ hai sau IntelliJ, miễn phí và mã nguồn mở, có thư viện plugin lớn cho các lập trình viên tự do thiết kế sản phẩm và luồng công việc theo ý thích."
+"Đặc trưng riêng của Eclipse là phiên bản cloud, lập trình viên có thể lưu trữ mã nguồn trực tiếp trên cloud và làm việc từ bất kỳ nơi nào. Ngoài ra, hơn 100 ngôn ngữ lập trình là con số mà Eclipse hỗ trợ, nên đối tượng người dùng của IDE này là những lập trình viên thích code bằng nhiều ngôn ngữ."
+Các phiên bản:
+Ưu điểm:
+Nhược điểm:
+"Codenvy là phiên bản thương mại được xây dựng trên Cloud của Eclipse, miễn phí cho tối đa 3 người dùng. Điểm đặc biệt, Codenvy cung cấp dịch vụ code trực tiếp trên browser rất tiện lợi. Ngoài Java, IDE này còn hỗ trợ C++, C#, PHP, và JavaScript."
+Các phiên bản:
+Ưu điểm:
+Nhược điểm:
+"Apache NetBeans từng là phần mềm code Java đứng top trong 25 năm, mọi tính năng mà bạn kỳ vọng từ một phần mềm code tốt đều được hỗ trợ: highlight code, sửa lỗi, deploy code, plugin,…"
+"Khác với những đối thủ cạnh tranh, Apache NetBeans là mã nguồn mở và hoàn toàn miễn phí, và ngoài hỗ trợ Java, IDE này còn hỗ trợ JavaScript, PHP, HTML5, C++ và nhiều ngôn ngữ khác."
+Các phiên bản:
+Ưu điểm:
+Nhược điểm:
+"Được tạo ra vào năm 1999 bởi John Rosenberg và Michael Kolling cho mục đích giáo dục, nhưng BlueJ sớm được cộng đồng Java khắp thế giới để mắt đến với nhiều tính năng độc đáo, có thể dùng trực tiếp mà không cần cài đặt và hơn hết là hoàn toàn miễn phí."
+Các phiên bản:
+Ưu điểm:
+Nhược điểm:
+"MyEclipse tương tự như Codenvy cũng là phiên bản IDE thương mại được xây dựng trên Cloud của Eclipse. Vì là phiên bản thương mại nên những tính năng và sự hỗ trợ cũng đầy đủ hơn so với các phiên bản mã nguồn mở,cũng cung cấp các tính năng để làm việc với cơ sở dữ liệu và Spring. Điểm đặc biệt của MyEclipse là nó phù hợp để phát triển cả backend và frontend."
+Các phiên bản:
+Ưu điểm:
+Nhược điểm:
+Chọn một phần mềm code Java IDE phù hợp nên cân nhắc nhiều yếu tố:
+Đọc thêm: Học lập trình Java cơ bản đầy đủ với 10+ giáo trình Java mới nhất
+Sau khi phần mềm được cài đặt trên máy thì code Java có thể chạy trên đó.
+"Phần mềm code Java cần quyền chỉnh sửa vào các thư mục chứa mã nguồn mà bạn đang phát triển, và tương tự với các thư mục tạm (temporary files folder)."
+"Java Development Kit nên được cài trên mỗi máy tính và chỉ máy chủ cài Java-Editor, như vậy mỗi khi cần cập nhật phiên bản chỉ cần cập nhật trên máy chủ."
+"Khi cài đặt Java người dùng là người quyết định phần mềm code Java sẽ dùng file ini hay window registry để cấu hình dữ liệu. Dữ liệu sẽ được lưu ở HKEY_LOCAL_MACHINE\Software\JavaEditor, mỗi thông tin về cài đặt của người dùng sẽ được lưu riêng trong file user.ini"
+"Phần mềm code Java giúp cho việc phát triển sản phẩm trở nên dễ dàng, thông qua một môi trường làm việc duy nhất, lập trình viên nhận được sự hỗ trợ từ rất nhiều các tính năng giúp  nâng cao hiệu suất làm việc. Chọn được một phần mềm code Java phù hợp với yêu cầu dự án, ngân sách là bước đầu tiến gần hơn với một dự án thành công, mong thông qua bài viết này bạn sẽ có nhiều thông tin hữu ích để chọn được phần mềm code Java phù hợp."
+Bạn thấy bài viết hay và hữu ích? Đừng ngại Share với bạn bè và đồng nghiệp nhé.
+Và nhanh tay tham khảo việc làm IT “chất” trên ITviec!
+Data Engineer
+"Bằng việc cung cấp địa chỉ email, bạn đồng ý với các Điều khoản dịch vụ và Chính sách quyền riêng tư của ITviec liên quan đến thông tin riêng tư của bạn."
+Δ
+"Bằng việc cung cấp địa chỉ email, bạn đồng ý với các Điều khoản dịch vụ và Chính sách quyền riêng tư của ITviec liên quan đến thông tin riêng tư của bạn.
+Δ"
+"Bằng việc cung cấp địa chỉ email, bạn đồng ý với các Điều khoản dịch vụ và Chính sách quyền riêng tư của ITviec liên quan đến thông tin riêng tư của bạn."
+Δ

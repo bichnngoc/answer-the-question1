@@ -1,0 +1,38 @@
+Paragraphs
+Color Mode
+"Trong lập trình Java, vòng lặp (loop) là một cấu trúc quan trọng giúp thực hiện một chuỗi các câu lệnh lặp đi lặp lại một số lần hoặc cho đến khi một điều kiện cụ thể thỏa mãn. Vòng lặp giúp tối ưu hóa việc lặp lại một tập hợp các hành động, giảm sự lặp code và làm cho chương trình trở nên mạch lạc và hiệu quả hơn."
+"Vòng lặp ""while"" cho phép bạn thực hiện một khối code lặp đi lặp lại cho đến khi một điều kiện nào đó không còn đúng nữa."
+Cấu Trúc Cơ Bản của Vòng lặp while
+"Vòng lặp ""while"" trong Java có cấu trúc cơ bản như sau:"
+Ví dụ 1
+"Hãy xem xét một ví dụ cụ thể sử dụng vòng lặp ""while"". Trong ví dụ này, chúng ta sẽ in ra các số từ 1 đến 5 bằng cách sử dụng vòng lặp ""while"":"
+Trong ví dụ này:
+Kết quả của chương trình sẽ là:
+Ví dụ 2
+"Hãy tưởng tượng bạn đang xây dựng một ứng dụng quản lý thư viện và bạn muốn tạo một tính năng hiển thị danh sách các cuốn sách trong thư viện cho người dùng. Thư viện của bạn có một danh sách các cuốn sách và bạn muốn in ra từng cuốn sách trong danh sách bằng sử dụng vòng lặp ""while""."
+"Dưới đây là một ví dụ giả định sử dụng vòng lặp ""while"" trong một ứng dụng quản lý thư viện:"
+Trong ví dụ này:
+Kết quả của chương trình sẽ là danh sách các cuốn sách trong thư viện:
+"Ví dụ này minh họa cách sử dụng vòng lặp ""while"" trong một tình huống thực tế, trong đó bạn cần lặp qua một danh sách và thực hiện một hành động trên mỗi phần tử trong danh sách."
+Ví dụ 3
+"Vòng lặp ""while"" có thể được sử dụng để tạo một trò chơi đoán số đơn giản. Dưới đây là một ví dụ về trò chơi đoán số sử dụng vòng lặp ""while"" trong Java:"
+Trong trò chơi này:
+"Ví dụ này minh họa cách sử dụng vòng lặp ""while"" trong trò chơi đoán số, cho phép người chơi tiếp tục đoán cho đến khi họ đoán đúng."
+Ví dụ 4
+Vòng lặp while thường được sử dụng trong thuật toán tìm kiếm nhị phân (binary search) để tìm kiếm một giá trị trong một danh sách đã sắp xếp. Dưới đây là một ví dụ về cách sử dụng vòng lặp while trong thuật toán binary search:
+"Trong ví dụ này, binarySearch là một phương thức tìm kiếm nhị phân và vòng lặp while được sử dụng để kiểm tra phạm vi tìm kiếm. Đầu tiên, vị trí trái (left) được đặt là 0 và vị trí phải (right) được đặt là độ dài của mảng trừ 1. Trong mỗi lần lặp, ta tính giá trị trung bình của left và right để tìm vị trí giữa (mid). Sau đó, ta so sánh giá trị tại vị trí mid với giá trị cần tìm. Nếu chúng bằng nhau, ta trả về vị trí mid. Nếu giá trị tại mid lớn hơn giá trị cần tìm, ta thực hiện thu gọn phạm vi tìm kiếm sang bên trái bằng cách cập nhật right. Ngược lại, nếu giá trị tại mid nhỏ hơn giá trị cần tìm, ta thu gọn phạm vi tìm kiếm sang bên phải bằng cách cập nhật left. Vòng lặp này tiếp tục cho đến khi left không còn nhỏ hơn hoặc bằng right."
+"Khi sử dụng vòng lặp while trong Java, có một số điểm quan trọng cần lưu ý để tránh tình huống vòng lặp vô hạn hoặc vòng lặp không thực hiện. Dưới đây là một số chú ý quan trọng cùng với ví dụ minh họa:"
+"Điều kiện dừng: Hãy đảm bảo rằng bạn có một điều kiện dừng trong vòng lặp. Nếu điều kiện không bao giờ trở thành false, vòng lặp sẽ thực hiện code bên trong mãi mãi và gây ra vòng lặp vô hạn."
+"Cập nhật biến điều kiện: Đảm bảo rằng bạn cập nhật biến điều kiện trong vòng lặp để tiến đến điều kiện dừng. Nếu bạn không cập nhật biến, vòng lặp có thể không bao giờ dừng."
+"Kiểm tra trước khi thực hiện: Kiểm tra điều kiện trước khi thực hiện code bên trong vòng lặp. Nếu điều kiện không được đáp ứng ngay từ đầu, vòng lặp sẽ không thực hiện khối code trong while."
+"Trong bài viết này, chúng ta đã tìm hiểu về vòng lặp ""while"" trong ngôn ngữ lập trình Java. Vòng lặp ""while"" cho phép bạn lặp lại một khối code cho đến khi một điều kiện cụ thể trở thành ""false."" Ta đã tìm hiểu cấu trúc cơ bản của vòng lặp ""while"" và xem xét một số ví dụ thực tế về cách sử dụng vòng lặp ""while"" trong lập trình."
+"Ví dụ 1 minh họa cách sử dụng vòng lặp ""while"" để in ra các số từ 1 đến 5."
+"Ví dụ 2 giả định việc sử dụng vòng lặp ""while"" trong ứng dụng quản lý thư viện để hiển thị danh sách các cuốn sách."
+"Ví dụ 3 trình bày một trò chơi đoán số đơn giản sử dụng vòng lặp ""while"" để cho phép người chơi đoán số cho đến khi họ đoán đúng."
+"Ví dụ 4 minh họa cách sử dụng vòng lặp ""while"" trong thuật toán tìm kiếm nhị phân để tìm kiếm một giá trị trong mảng đã sắp xếp."
+"Cuối cùng, chúng ta đã xem xét một số lưu ý quan trọng khi sử dụng vòng lặp ""while"", bao gồm việc đảm bảo có điều kiện dừng, cập nhật biến điều kiện và kiểm tra điều kiện trước khi thực hiện. Việc hiểu cách sử dụng vòng lặp ""while"" là quan trọng để viết code chính xác và hiệu quả trong Java."
+©️ Tác giả: Trần Quang Hiệp từ Viblo
+All Rights Reserved
+Have no Table of contents
+"© 2024
+                    Viblo. All rights reserved."
